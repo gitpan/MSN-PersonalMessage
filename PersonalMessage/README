@@ -1,0 +1,22 @@
+MSN/PersonalMessage version 0.01
+================================
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Change MSN Personal Message
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2008 by Lilo Huang All Rights Reserved.
+You can use this module under the same terms as Perl itself.

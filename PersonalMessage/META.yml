@@ -1,0 +1,8 @@
+# http://module-build.sourceforge.net/META-spec.html
+name:         MSN-PersonalMessage
+version:      0.01
+author: LiloHuang
+installdirs:  site
+requires:
+distribution_type: module
+
