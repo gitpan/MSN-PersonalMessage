@@ -4,3 +4,5 @@ Revision history for Perl extension MSN::PersonalMessage.
 	- original version; created by h2xs 1.21 with options
 		-A -n MSN::PersonalMessage
 
+0.02  Sun May  4 14:26:10 2008
+	- use dynamic memory allocate to store data

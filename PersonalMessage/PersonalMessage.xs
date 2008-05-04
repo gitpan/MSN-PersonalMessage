@@ -6,7 +6,7 @@
 MODULE = MSN::PersonalMessage		PACKAGE = MSN::PersonalMessage		
 
 void 
-Change(char *a, char *b)
+Change(char *type, char *message)
 
 void 
 Disable()
