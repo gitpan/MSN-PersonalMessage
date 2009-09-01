@@ -12,7 +12,7 @@ our @ISA = qw(Exporter DynaLoader);
 our %EXPORT_TAGS = ( 'all' => [ qw(Change Disable) ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 bootstrap MSN::PersonalMessage $VERSION;
 
@@ -40,17 +40,9 @@ MSN::PersonalMessage - Perl extension for change MSN Personal Message
 
    Text is support Multibyte charset.
 
-=head2 PPM DISTRIBUTION
-
-   If you are using ActivePerl, you can also install with the command
-   ppm install http://tw.kuso.cc/MSN-PersonalMessage.ppd
-
 =head1 AUTHOR
 
-Lilo Huang (kenwu@cpan.org)
-
-http://blog.roodo.com/kenwu/
-
+Lilo Huang
 
 =head1 COPYRIGHT AND LICENSE
 
